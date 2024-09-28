@@ -1,0 +1,88 @@
+.beauty_main_div{
+    height: 400px;
+    border: 2px solid black;
+    background: url('https://images.pexels.com/photos/1229414/pexels-photo-1229414.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
+.beauty_main_div h2{
+    color: white;
+    margin-left: 20px;
+}
+.beauty_main_div h1{
+    color: white;
+    width: 30%;
+    margin-left: 50px;
+    font-size:xxx-large;
+}
+.beauty_main_div p{
+    color: white;
+    width: 40%;
+    margin-left: 50px;
+}
+.beauty_main_div button{
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 166, 0);
+    border-radius: 5px;
+    color: rgb(255, 166, 0);
+}
+.beauty_main_div button:hover{
+    color: white;
+    background-color:  rgb(255, 166, 0);
+}
+
+.latest_containt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.beuty_sub_div{
+    border: 2px solid green;
+}
+.beuty_sub_div h1{
+    text-align: center;
+}
+.beuty_sub_div1{
+    /* border: 2px solid black; */
+    width: 20%;
+    height:250px ;
+    background-color: rgb(233, 226, 226);
+}
+.beuty_sub_div1 p{
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.beuty_sub_div1 img{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.beuty_sub_div1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -35px;
+}
+.btn_contant{
+    text-align: center;
+}
+.btn_contant button{
+    height: 40px;
+    color: white;
+    background-color:  rgb(255, 166, 0);
+    width: 200px;
+    border: 2px solid rgb(255, 166, 0);
+    border-radius: 5px;
+   
+}
+
+.btn_contant button:hover{
+    background-color: transparent;
+    color: rgb(255, 166, 0);
+}
